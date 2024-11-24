@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  AI_ChatBot_Image,
+  CodeSync_Image,
+  Quantura_Image,
+  Weatherly_Image,
+  Crypto_Image,
+  Credit_Image,
 } from "../assets";
 export const navLinks = [
   {
@@ -40,11 +46,11 @@ export const navLinks = [
 ];
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "UI/UX Designer",
     icon: mobile,
   },
   {
@@ -52,7 +58,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "DSA Specialist",
     icon: creator,
   },
 ];
@@ -192,9 +198,9 @@ const testimonials = [
 ];
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI Chatbot",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An AI chatbot powered by OpenAI's API, offering intelligent, real-time assistance, automated responses, and context-aware interactions to enhance user engagement.",
     tags: [
       {
         name: "react",
@@ -208,14 +214,18 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: AI_ChatBot_Image,
+    source_code_link: "https://github.com/sarthisarthak/AI_ChatBot",
   },
   {
-    name: "Job IT",
+    name: "Code Sync",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A real-time collaborative code editor enabling multiple users to write, edit, and debug code simultaneously, with seamless synchronization and interactive features to enhance teamwork.",
     tags: [
       {
         name: "react",
@@ -226,33 +236,105 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "socket.io",
         color: "pink-text-gradient",
       },
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: CodeSync_Image,
+    source_code_link: "https://github.com/sarthisarthak/CodeSync",
   },
   {
-    name: "Trip Guide",
+    name: "Crypto Whimsy",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A real-time cryptocurrency tracking app that fetches live market data, visualizes trends with interactive charts, and offers a user-friendly interface for monitoring prices and market movements.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "scss",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "chartjs",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Crypto_Image,
+    source_code_link: "https://github.com/sarthisarthak/Crypto_Whimsy_React",
+  },
+  {
+    name: "Quantura",
+    description:
+      "A frontend clone of Zerodha, replicating its user interface to showcase a sleek and intuitive design for stock trading and market analysis.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Quantura_Image,
+    source_code_link: "https://github.com/sarthisarthak/Zerodha_Clone.",
+  },
+  {
+    name: "CreditCard Fraud Detection",
+    description:
+      "A machine learning project designed to detect credit card fraud by analyzing transaction patterns and identifying anomalies for enhanced financial security.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "numpy",
+        color: "green-text-gradient",
+      },
+      {
+        name: "pandas",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "scikit-learn",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: Credit_Image,
+    source_code_link:
+      "https://github.com/sarthisarthak/CredictCard_Fraud_Detection",
+  },
+  {
+    name: "Weatherly",
+    description:
+      "A React-based weather app that provides real-time weather updates, forecasts, and location-based conditions with a clean, user-friendly interface.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "materialui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Weatherly_Image,
+    source_code_link: "https://github.com/sarthisarthak/Weather_App_React",
   },
 ];
 
