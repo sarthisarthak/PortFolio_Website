@@ -17,17 +17,17 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff] ">Sarthak</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I build interactive, user-friendly websites{" "}
-            <br className="sm:block hidden" /> prioritizing performance and
-            functionality.
+            Creating fast, interactive websites
+            <br className="sm:block hidden" />
+            with a focus on user experience and functionality.
           </p>
         </div>
       </div>
       <ComputersCanvas />
-      <div className="xs:bottom-10 bottom-32 w-full flex justify-center items-center">
-        <a href="#about">
-          <div className="absolute w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.dev
+      <div className="sticky xs:bottom-10 bottom-32 w-full flex justify-center items-center z-10">
+        <a href="#about" className="cursor-pointer">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+            <motion.div
               animate={{
                 y: [0, 24, 0],
               }}

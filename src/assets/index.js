@@ -1,4 +1,4 @@
-import logo from "./logo2.svg";
+import logo from "./logo3.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -29,6 +29,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import AI_ChatBot_Image from "./AI_ChatBot_Image.png";
+import CodeSync_Image from "./CodeSync_Image.png";
+import Quantura_Image from "./Quantura_Image.png";
+import Weatherly_Image from "./Weatherly_Image.png";
+import Crypto_Image from "./Crypto_Image.png";
+import Credit_Image from "./Credit_Image.png";
 
 export {
   logo,
@@ -59,4 +65,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  AI_ChatBot_Image,
+  CodeSync_Image,
+  Quantura_Image,
+  Weatherly_Image,
+  Crypto_Image,
+  Credit_Image,
 };
